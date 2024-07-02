@@ -13,11 +13,8 @@ int main() {
         cin >> a[i];
     }
 
-    bool boolean;
-    boolean = true;
-
     for (int i = 0; i < num - 1; i++) {
-        for (int j = i + 1; j <  num - i - 1; j++) {
+        for (int j = i + 1; j <  num; j++) {
             if (a[i] < a[j]) {
                 b = a[i];
                 a[i] = a[j];
